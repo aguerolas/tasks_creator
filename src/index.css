@@ -1,10 +1,15 @@
-*{
-    box-sizing: border-box;
-    margin: 0
-}
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
